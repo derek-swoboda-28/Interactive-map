@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('/src/assets/fonts/Outfit.ttf') format('truetype');
+  font-weight: 400; /* Set the weight that matches the font file */
+  font-style: normal;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Outfit';
+}
+
+:root {
+  font-family: Outfit;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #FFFFFF;
+}
